@@ -2,8 +2,8 @@ const express = require ('express');
 
 const app = express();
 
-app.listen(3030, () => {
-    console.log('Levantando el servidor', "http://localhost:3030")
+app.listen(3500, () => {
+    console.log('Se levanta el servidor!', "http://localhost:3500")
 });
 
 const path = require ('path');

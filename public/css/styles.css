@@ -61,11 +61,6 @@ padding: 0;
 
 }
 
-/* .right-navbar i {
-
-    margin-left: 1%;
-} */
-
 
 h3 {
 
@@ -98,7 +93,7 @@ article {
 
 }
 
-/* Mostrar sombra del producto solo en hover  */
+
 article:hover  {
     box-shadow: 0px 0px 10px rgb(100 100 100);
 
@@ -120,8 +115,6 @@ article h3.precio {
 }
 article h3.descuento {
     font-size: 16px;
-    /* margin-left: 2%;
-    margin-top: 3.5%; */
     color: #39b54a;
 
 }
@@ -175,11 +168,11 @@ article h4.descripcion {
 .responsive-logo {
     width: 100px;
     height: auto;
-    /* position: center; */
+
 }
 
 .burger-menu {
-    /* Lo convierto en un elemento de bloque para q ocupe toda la linea */
+
     display: block;
 
     background-color: #1259c3;
@@ -187,13 +180,10 @@ article h4.descripcion {
     border-radius: 5px;
     color: white;
     text-align: center;
-    /* vertical-align: middle; */
+
     line-height: 15px;
     width: 15px;
     margin: auto;
-   /* width: 50%; */
-   /* El relleno! , se pueden usar hasta 4 numeros . Tb se puede usar
-   padding-top / bottom, / right  /left */ 
     padding: 10px;
     font-size:18px;
 
@@ -248,7 +238,6 @@ article h4.descripcion {
 .c-cuotas-mobile {
 
     text-align: center;
-    /* margin-right: 10%; */
     font-size: 16px;
     font-weight: 400;
     
@@ -258,8 +247,6 @@ article h4.descripcion {
 .c-cuotas-tablet{
 
     display:none;
-    /* text-align: center; */
-    /* margin-right: 10%; */
     font-size: 16px;
     font-weight: 400;
 }
@@ -316,7 +303,6 @@ text-align: center;
     .box-articulos article {
         
         width:48%;
-        /* max-height: 270px; */
 
     }
 
@@ -331,8 +317,6 @@ text-align: center;
     
         display:inline;
         font-style: normal;
-        /* text-align: center; */
-        /* margin-right: 10%; */
         font-size: 16px;
         font-weight: 400;
     }
@@ -340,7 +324,7 @@ text-align: center;
 
 }
 
-/* Desktops */
+
 @media (min-width: 769px) {
     
 
@@ -385,7 +369,6 @@ text-align: center;
 
     .box-articulos article {
 
-        /* height: 300px; */
         transition: max-height 0.5s;
     }
 
@@ -411,10 +394,7 @@ text-align: center;
     .box-articulos article {
         
         width:24%;
-        /* height: auto;         */
-       /* height:fit-content; */
-       /* max-height: 292px; */
-       /* 352 desplegado */
+
     }
 
     .main-navbar {
@@ -435,7 +415,6 @@ text-align: center;
 
        margin: 0 5px;
         
-
     }
 
     .burger-menu {
