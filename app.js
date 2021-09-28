@@ -2,8 +2,8 @@ const express = require ('express');
 
 const app = express();
 
-app.listen(3500, () => {
-    console.log('Se levanta el servidor!', "http://localhost:3500")
+app.listen(process.env.PORT || 3015, () => {
+    console.log('Se levanta el servidor!', "http://localhost:3015")
 });
 
 const path = require ('path');
