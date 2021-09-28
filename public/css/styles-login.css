@@ -1,0 +1,29 @@
+.boton-ingresar {
+
+    background-color: #1259c3;
+    border: 2px solid #1259c3;
+    color: white;
+    transition: background-color 0.5s;
+
+}
+
+.div-boton {
+    text-align: center;
+}
+
+.div-boton:hover .boton-ingresar {
+    background-color: #0022AA;
+
+
+} 
+
+@media (min-width: 769px) {
+    
+
+.footer-flex {
+
+    display:flex;
+
+}
+
+}

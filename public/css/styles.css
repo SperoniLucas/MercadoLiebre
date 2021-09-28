@@ -1,0 +1,457 @@
+
+.main-header {
+
+    background-color: #EAC926;
+    border: solid #EAC926;
+    margin: 0%;
+    padding: 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+
+}
+
+.main-header-top-bar {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body {
+    font-family: 'Roboto' , sans-serif;
+    margin:auto;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+
+}
+
+main {
+
+display:block;
+margin-left: auto;
+margin-right: auto; 
+width: 90%;
+box-sizing: border-box;
+
+}
+
+.main-navbar {
+
+    display:none;
+    padding: 10px;;
+}
+
+.main-navbar ul {
+
+list-style: none;
+margin: 0%;
+padding: 0;
+
+}
+
+.main-navbar a {
+
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+
+}
+
+/* .right-navbar i {
+
+    margin-left: 1%;
+} */
+
+
+h3 {
+
+    font-size: 24px;
+    margin-left: 1%;
+    color: #666;
+}
+
+
+.box-articulos {
+
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+height: auto;
+
+}
+
+.box-articulos article {
+
+    flex-wrap:wrap;
+}
+
+
+article {
+
+    margin-bottom: 10px;
+
+    position:relative;
+
+}
+
+/* Mostrar sombra del producto solo en hover  */
+article:hover  {
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+
+}
+
+.div-detalles-articulo {
+
+    border-top: 0,1%  solid #ebebeb;
+    padding: 15px;
+    background-color: white;
+
+}
+
+article h3.precio {
+    font-size: 18px;
+    margin-left: 2%;
+
+
+}
+article h3.descuento {
+    font-size: 16px;
+    /* margin-left: 2%;
+    margin-top: 3.5%; */
+    color: #39b54a;
+
+}
+
+article h4 {
+    margin-left: 2%;
+    color: #666
+
+}
+
+.logo-envio {
+
+color: #39b54a;
+display: block;
+position:absolute;
+font-size: 16px;
+padding: 5px;
+width: 20px;
+height: 20px;
+border: 1px solid #39b54a;
+border-radius: 50%;
+background-color: #fff;
+right:5px;
+text-align: center;
+margin-right: 10px;
+margin-bottom: 50px;
+margin-top: -30px;
+  
+}
+
+article h4.descripcion {
+    font-size: 16px;
+    margin-left: 2%;
+    display:none;
+
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+.logo-fiestas {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.responsive-logo {
+    width: 100px;
+    height: auto;
+    /* position: center; */
+}
+
+.burger-menu {
+    /* Lo convierto en un elemento de bloque para q ocupe toda la linea */
+    display: block;
+
+    background-color: #1259c3;
+    border: 2px solid #1259c3;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 15px;
+    width: 15px;
+    margin: auto;
+   /* width: 50%; */
+   /* El relleno! , se pueden usar hasta 4 numeros . Tb se puede usar
+   padding-top / bottom, / right  /left */ 
+    padding: 10px;
+    font-size:18px;
+
+}
+
+.precio-descuento {
+
+    display:flex;
+
+}
+
+.precio-descuento h3.precio {
+
+    flex-grow: 0.3;
+
+}
+.precio-descuento h3.descuento {
+
+    flex-grow: 0.7;
+
+}
+
+.article-footer {
+    color: #666;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+    line-height: 17x;
+    margin: 10px;
+    box-shadow: initial;
+
+}
+
+.article-copyright {
+    color: #666;
+    font-size: 10px;
+    box-shadow: initial;
+}
+
+.input-nav {
+
+   
+    
+    width: 50%;
+}
+
+.ultima-visita {
+    font-weight: 400;
+    margin-left: 1%;
+}
+
+.c-cuotas-mobile {
+
+    text-align: center;
+    /* margin-right: 10%; */
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+.c-cuotas-tablet{
+
+    display:none;
+    /* text-align: center; */
+    /* margin-right: 10%; */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+footer {
+
+margin-top: 20%;
+
+}
+
+.tarjeta-footer {
+
+color: #1259c3;
+font-size: 2em;
+margin-bottom: 10px;
+text-align: center;
+
+}
+
+.usuario-footer {
+
+color: #1259c3;
+font-size: 2em;
+margin-bottom: 10px;
+text-align: center;
+    
+}
+
+.regalo-footer {
+
+color: #1259c3;
+font-size: 2em;
+margin-bottom: 10px;
+text-align: center;
+        
+}
+
+/* Tablets */
+@media (min-width: 361px) {
+  
+    .burger-menu {
+        
+        display:none;
+
+        }
+
+    .main-navbar {
+
+        display:inline-block;
+
+    }
+
+    .box-articulos article {
+        
+        width:48%;
+        /* max-height: 270px; */
+
+    }
+
+    .c-cuotas-mobile {
+
+        display:none;
+        
+    
+    }
+    
+    .c-cuotas-tablet{
+    
+        display:inline;
+        font-style: normal;
+        /* text-align: center; */
+        /* margin-right: 10%; */
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+}
+
+/* Desktops */
+@media (min-width: 769px) {
+    
+
+    .footer-flex {
+
+        display:flex;
+
+    }
+
+
+
+    .responsive-logo {
+        width: 200px;
+    }
+    
+    main article h4.descripcion {
+        display:block;
+        position:absolute;
+        bottom:40px;
+        z-index:-1;
+        opacity: 0;
+
+    }
+
+    main article:hover  h4.descripcion {
+        
+        display:block;
+        position: relative;
+        bottom: 0;
+        z-index: 1;
+        opacity: 1;
+
+
+    }
+
+    main article:hover  .box-articulos article {
+        
+       max-height: 352px;
+
+
+    }
+
+    .box-articulos article {
+
+        /* height: 300px; */
+        transition: max-height 0.5s;
+    }
+
+    main article:hover .logo-envio {
+
+        transform: rotate(-90deg);
+
+    }
+
+    main article .logo-envio{
+
+        transition: transform 0.5s;
+
+    }
+
+
+    main article h4.descripcion {
+        transition: opacity  0.5s;
+    }
+
+
+    
+    .box-articulos article {
+        
+        width:24%;
+        /* height: auto;         */
+       /* height:fit-content; */
+       /* max-height: 292px; */
+       /* 352 desplegado */
+    }
+
+    .main-navbar {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .main-navbar ul {
+
+        display: flex;
+        
+
+    }
+
+    .main-navbar li {
+
+       margin: 0 5px;
+        
+
+    }
+
+    .burger-menu {
+        
+        display:none;
+
+        }
+
+    .main-header-top-bar {
+
+        display: flex;
+       
+    }
+
+    
+
+
+
+}
