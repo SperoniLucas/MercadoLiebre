@@ -61,6 +61,10 @@ padding: 0;
 
 }
 
+.boton-buscar {
+    background-color: #1259c3;
+    color: white;
+}
 
 h3 {
 
@@ -254,7 +258,13 @@ article h4.descripcion {
 
 footer {
 
-margin-top: 20%;
+    margin-top: 20%;
+    background-color: #EAC926;
+    border: solid #EAC926;
+    margin: 0%;
+    padding: 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
 
 }
 
